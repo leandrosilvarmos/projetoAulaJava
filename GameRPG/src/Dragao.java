@@ -1,9 +1,16 @@
 
 public class Dragao  extends Combatente{
 	
-	public void Nome() {
-		
-		nomeDragao = new Nome
+	public Dragao (int TotalVida) {
+		super(TotalVida);
 	}
+	
+	
+	@Override
+	public void exibirNome() {
+		System.out.println("Dragao : " + this.retornarNome());
+	}
+	
+	
 	
 }
