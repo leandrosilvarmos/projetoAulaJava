@@ -1,11 +1,14 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class Game {
 
 	public static void main(String[] args) {
 		
-		Combatente c = new Orc (100);
-		Combatente a = new Arqueiro(100);
+		
+		EscolherCombatente escolher = new EscolherCombatente();
+		Combatente c = escolher.escolher();
+		Combatente a = escolher.escolher();
 		Batalha b = new Batalha (c , a);
 		
 		
