@@ -7,21 +7,30 @@ public class Game {
 //		System.out.println("Ola Mundo");
 //
 	
-		Random rand = new Random(); int Qtataque = rand.nextInt(10);
-		
-	
-		
-		Combatente c = new Dragao (100);
-		Combatente a = new Arqueiro(20);
-		
-		c.atribuirNome("Leandro");
-		c.exibirNome();
-		c.receberAtaque(Qtataque);
+		Random rand = new Random(); 
 		
 		
+		Combatente c = new Orc (100);
+		Combatente a = new Arqueiro(100);
 		
-		 System.out.println(c.estaMorto());
-		 System.out.println(c.estaVivo());
+		while(c.estaVivo() && a.estaVivo()) {
+			int dado1 = rand.nextInt(10);
+			int dado2 = rand.nextInt(10);
+			c.receberAtaque(dado1);
+			a.receberAtaque(dado2);
+			System.out.println(c.getVida()); 
+			System.out.println(a.getVida()); 
+			
+		}
+		
+		if(c.estaVivo()) {
+			System.out.println(c.retornarNome());
+		}
+		else {
+			System.out.println(a.retornarNome());
+		}
+		
+		
 				
 	}
 

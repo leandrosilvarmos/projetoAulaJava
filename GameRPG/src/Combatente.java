@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Combatente {
+public abstract class  Combatente {
 
 
 	private int TotalVida ;
@@ -44,7 +44,7 @@ public int getVida() {
 	}
 
 	public boolean estaMorto() {
-		return TotalVida == 0;
+		return TotalVida <= 0;
 	}
 	
 	

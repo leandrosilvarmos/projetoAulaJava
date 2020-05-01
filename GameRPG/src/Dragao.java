@@ -3,6 +3,8 @@ public class Dragao  extends Combatente{
 	
 	public Dragao (int TotalVida) {
 		super(TotalVida);
+		super.atribuirNome("Dragão branco");
+
 	}
 	
 	
