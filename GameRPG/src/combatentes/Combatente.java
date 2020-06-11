@@ -1,11 +1,17 @@
+package combatentes;
 import java.util.Random;
 
-public abstract class  Combatente {
+import Armas.Arma;
+import Armas.Armadura;
+
+public abstract class  Combatente  {
 
 
 	private int TotalVida ;
 	private int Defesa ; 
 	private String Nome;
+	private Arma arma;
+	private Armadura armadura;
 	
 	public Combatente (int TotalVida) {
 		this.TotalVida = TotalVida;
@@ -13,10 +19,24 @@ public abstract class  Combatente {
 	}
 	
 public void receberAtaque(int quantidaAtaque ) {
+	if (armadura == null ) {
 	this.TotalVida = this.TotalVida - quantidaAtaque;
+	}else {
+		this.TotalVida = this.TotalVida - armadura.diminuiAtaque(quantidaAtaque);
+	}
 	
 }
 
+
+public int atacar() {
+	Random rand = new Random(); 
+	int ataque = rand.nextInt(10);
+	if(arma == null) {
+		return ataque;
+	}else {
+		return arma.aumentaAtaque(ataque);
+	}
+}
 
 
 public void atribuirNome(String nome) {
@@ -29,7 +49,7 @@ public  void exibirNome () {
 }
 
 
-protected String retornarNome () {
+public String retornarNome () {
 	return this.Nome;
 }
 
@@ -48,4 +68,17 @@ public int getVida() {
 	}
 	
 	
+	
+	public void equiparArmas(Arma arma) {
+		this.arma = arma;
+	}
+	
+	public void equipeArmadura(Armadura armadura) {
+		this.armadura = armadura;
+	}
+	
+	
 }
+
+
+

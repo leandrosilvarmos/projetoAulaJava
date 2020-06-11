@@ -1,5 +1,8 @@
+package personagens;
 
-public class Arqueiro extends Combatente {
+import combatentes.Combatente;
+
+public class Arqueiro extends Combatente  {
 
 	public Arqueiro(int TotalVida) {
 		super(TotalVida);
@@ -8,8 +11,16 @@ public class Arqueiro extends Combatente {
 	}
 
 	
+
 	@Override
 	public void exibirNome() {
 		System.out.println("Arqueiro" + this.retornarNome());
 	}
+	
+	
+	
+	
+	
+	
+	
 }

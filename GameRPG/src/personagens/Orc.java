@@ -1,5 +1,7 @@
+package personagens;
+import combatentes.Combatente;
 
-public class Orc extends Combatente {
+public class Orc extends Combatente  {
 
 	
 	public Orc(int TotalVida) {
@@ -12,4 +14,7 @@ public class Orc extends Combatente {
 		System.out.println("Orc" + this.retornarNome());
 
 	}
+	
+	
+
 }

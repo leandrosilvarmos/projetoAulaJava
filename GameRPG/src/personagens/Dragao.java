@@ -1,5 +1,7 @@
+package personagens;
+import combatentes.Combatente;
 
-public class Dragao  extends Combatente{
+public class Dragao  extends Combatente {
 	
 	public Dragao (int TotalVida) {
 		super(TotalVida);
@@ -13,6 +15,6 @@ public class Dragao  extends Combatente{
 		System.out.println("Dragao : " + this.retornarNome());
 	}
 	
-	
+
 	
 }

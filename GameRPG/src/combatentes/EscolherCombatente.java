@@ -1,5 +1,9 @@
+package combatentes;
 import java.util.Scanner;
 
+import personagens.Arqueiro;
+import personagens.Dragao;
+import personagens.Orc;
 public class EscolherCombatente {
 
 	public Combatente escolher() {
