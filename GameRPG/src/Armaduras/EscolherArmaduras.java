@@ -12,12 +12,11 @@ public class EscolherArmaduras {
 
 	public Armadura escolher() {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Escolha suas Armas:" 
-							+ "\n" + "Arma Comum: Digite1" + "\n" 
-							+ "Espada: Digite2" + "\n" 
-							+ "Adaga: Digite3"
-							+ "\n" + "Arco com flecha de Fogo: Digite 4"
-							+ "\n" + "Cajado magico: Digite 5");
+		System.out.println("Escolha suas Armadura:" 
+							+ "\n" + "Armadura Comum: Digite1 / Escudo Comum: Digite2"
+							+ "\n" 
+							+ "Capacete Comum: Digite3 / Escudo de Ouro: Digite 4"
+							+"\n" + "Armadura de Couro: Digite 5");
 		
 		
 		int escolha = scanner.nextInt();
@@ -29,9 +28,9 @@ public class EscolherArmaduras {
 		}else if(escolha == 3){
 			return new Capacete();
 		}else if(escolha == 4) {
-			return new ArcoFogo();
+			return new EscudoOuro();
 		}else {
-			return new CajadoMagico();
+			return new ArmaduraCouro();
 		}
 	}
 	

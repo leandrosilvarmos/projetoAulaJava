@@ -7,6 +7,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 import Armaduras.Armadura;
+import Armaduras.EscolherArmaduras;
 import Armaduras.Escudo;
 import Armas.Arma;
 import Armas.EscolherArmas;
@@ -22,19 +23,26 @@ public class Game {
 		
 		EscolherCombatente escolher = new EscolherCombatente();
 		EscolherArmas escolhearma = new EscolherArmas();
+		EscolherArmaduras escolherarmadura = new EscolherArmaduras();
 		
 		Arma arma1 = escolhearma.escolher();
 		Arma arma2 = escolhearma.escolher();
 		
+		Armadura armadura1 = escolherarmadura.escolher();
+		Armadura armadura2 = escolherarmadura.escolher();
+		
 		//Arma arma2 = new Arma();
 		//Arma espada =  new Espada();
-		Armadura armadura1 = new Armadura();
-		Armadura escudo =  new Escudo();
+		//Armadura armadura1 = new Armadura();
+		//Armadura escudo =  new Escudo();
+		
+		
 		Combatente c = escolher.escolher();
 		Combatente a = escolher.escolher();
+		
 		a.equiparArmas(arma1);
 		c.equipeArmadura(armadura1);
-		a.equipeArmadura(escudo);
+		a.equipeArmadura(armadura2);
 		c.equiparArmas(arma2);
 		
 		
@@ -45,7 +53,7 @@ public class Game {
 		
 		
 		Combatente vencedor = b.vencedor();
-		System.out.println("O vencedor da partida é: " + vencedor.retornarNome());
+		System.out.println("\n" + "O vencedor da partida é: " + vencedor.retornarNome());
 		
 				
 	}

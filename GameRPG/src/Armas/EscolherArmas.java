@@ -9,10 +9,8 @@ public class EscolherArmas {
 	public Arma escolher() {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Escolha suas Armas:" 
-							+ "\n" + "Arma Comum: Digite1" + "\n" 
-							+ "Espada: Digite2" + "\n" 
-							+ "Adaga: Digite3"
-							+ "\n" + "Arco com flecha de Fogo: Digite 4"
+							+ "\n" + "Arma Comum: Digite1 / Espada: Digite2" + "\n" 
+							+ "Adaga: Digite3 / Arco com flecha de Fogo: Digite 4"
 							+ "\n" + "Cajado magico: Digite 5");
 		
 		
