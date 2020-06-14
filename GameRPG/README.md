@@ -5,6 +5,13 @@
  <img src="https://img2.gratispng.com/20180805/iot/kisspng-logo-java-runtime-environment-programming-language-java-util-concurrentmodificationexception-%C3%96mer-5b6766ab2d98b8.1809687115335031471868.jpg">
  </p>
  
+  <p align="center">
+ <img src="img/UML - AulaJava - 1.png">
+ </p>
+ 
+ 
+ ### Autor: Leandro ramos silva
+ 
  
  ## Sobre o jogo
  
@@ -12,7 +19,6 @@
 o projeto consiste em um RPG básico, onde você poder realizar eescolhas de personagens e o propio sistema, 
 ira realizar a batalha entre os personagens esolhidos.
 
-### Autor: Leandro ramos silva
  
  
  ## Criação do Jogo
@@ -21,7 +27,7 @@ ira realizar a batalha entre os personagens esolhidos.
   - Herença
   - Estrutura condicionais
   - Pacotes 
- utilizando essas técnicas, realizei a criação de classes para os personagens do jogo, 
+ 	- utilizando essas técnicas, realizei a criação de classes para os personagens do jogo, 
  é o jogo sendo um RPG criei as classes de Armas é Armaduras, para que o usúario possas equipar 
  em seus personagens escolhidos. 
  
@@ -33,7 +39,7 @@ ira realizar a batalha entre os personagens esolhidos.
   - Orcs
   - Seres Magicos
   - Guerreiro
-  dentro de cada categoria existe SubCategorias, que podem ser escolhidas
+  - dentro de cada categoria existe SubCategorias, que podem ser escolhidas
   Para as armas Criamos 5 Opções é seguimos o mesmo padrão para Armaduras
 
  ## Funcionamento 
@@ -42,4 +48,4 @@ ira realizar a batalha entre os personagens esolhidos.
   -  Escolher 2 Armadura 
   -	 Escolher 2 Armas
   -	 Escolher 2 combatentes
- assim voce pode começar uma batalha.
+  - assim voce pode começar uma batalha.
