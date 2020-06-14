@@ -1,8 +1,8 @@
 package combatentes;
 import java.util.Random;
 
+import Armaduras.Armadura;
 import Armas.Arma;
-import Armas.Armadura;
 
 public abstract class  Combatente  {
 

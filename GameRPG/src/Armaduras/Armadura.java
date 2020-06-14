@@ -1,4 +1,4 @@
-package Armas;
+package Armaduras;
 
 public class Armadura {
 
