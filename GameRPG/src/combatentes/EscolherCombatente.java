@@ -2,12 +2,15 @@ package combatentes;
 import java.util.Scanner;
 
 import personagens.Arqueiro;
+import personagens.Barbaro;
 import personagens.Bruxa;
 import personagens.Doende;
 import personagens.Dragao;
 import personagens.DragaoBranco;
 import personagens.DragaoGelo;
 import personagens.Fadas;
+import personagens.Gigante;
+import personagens.Guerreiro;
 import personagens.Humano;
 import personagens.Lobisomen;
 import personagens.Mago;
@@ -18,6 +21,7 @@ public class EscolherCombatente {
 
 	public Combatente escolher() {
 		Scanner scanner = new Scanner(System.in);
+		System.out.println("\n");
 		System.out.println("Escolha seu combatente Tipos de Dragão:"
 		+ "\n" + "Dragão Comum: Digite1 / Dragão Branco: Digite 2 / Dragão de Gelo: Digite3"
 		+ "\n" + "Escolha seu combatente Tipos de Humano:"
@@ -25,7 +29,9 @@ public class EscolherCombatente {
 		+ "\n" + "Escolha seu combatente Tipos de Orc:"
 		+ "\n" + "Orc: Digite8 / Orc da Montanha: Digite9" 
 		+ "\n" + "Escolha seu combatente Tipo Seres Magicos:"
-		+ "\n" + "Mago: Digite 10 / Mago Druida: Digite 11 / Fada do Bosque: Digite 12 / Duende: Digite 13");
+		+ "\n" + "Mago: Digite 10 / Mago Druida: Digite 11 / Fada do Bosque: Digite 12 / Duende: Digite 13"
+		+ "\n" + "Escolha seu combatente Tipo Guerreiros:"
+		+ "\n" + "Guerreiro comum: Digite 14 / Gigante do Norte: Digite 15 / Barbaro: Digite 16");
 		int valor1 = scanner.nextInt();
 
 		if(valor1 == 1) {
@@ -54,6 +60,12 @@ public class EscolherCombatente {
 		return new Fadas(100);
 	}else if(valor1 == 13) {
 		return new Doende(100);
+	}else if(valor1 == 14) {
+		return new Guerreiro(100);
+	}else if(valor1 ==15) {
+		return new Gigante(100);
+	}else if(valor1 == 16) {
+		return new Barbaro(100);
 	}else {
 		return null;
 	}

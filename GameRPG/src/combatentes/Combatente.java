@@ -30,7 +30,7 @@ public void receberAtaque(int quantidaAtaque ) {
 
 public int atacar() {
 	Random rand = new Random(); 
-	int ataque = rand.nextInt(10);
+	int ataque = rand.nextInt(20);
 	if(arma == null) {
 		return ataque;
 	}else {

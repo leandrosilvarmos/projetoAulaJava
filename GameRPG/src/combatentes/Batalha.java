@@ -32,6 +32,7 @@ public class Batalha {
 			
 			int quantidadeAtaque2 = combatente1.atacar();
 			combatente2.receberAtaque(quantidadeAtaque2);
+			System.out.println("\n");
 			System.out.println("O combatente " + combatente1.retornarNome() +  " recebeu o ataque = " + quantidadeAtaque); 
 			System.out.println("O combatente " + combatente2.retornarNome() +  " recebeu o ataque = " + quantidadeAtaque2); 
 			

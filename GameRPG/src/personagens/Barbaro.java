@@ -1,9 +1,9 @@
 package personagens;
 
-public class Gigante extends Guerreiro{
-	public Gigante (int TotalVida) {
+public class Barbaro extends Guerreiro {
+	public Barbaro (int TotalVida) {
 		super(TotalVida);
-		super.atribuirNome("Gigante do Norte");
+		super.atribuirNome("Barbaro");
 
 	}
 	
