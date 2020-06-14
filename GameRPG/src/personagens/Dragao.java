@@ -5,14 +5,14 @@ public class Dragao  extends Combatente {
 	
 	public Dragao (int TotalVida) {
 		super(TotalVida);
-		super.atribuirNome("Dragão branco");
+		super.atribuirNome("Dragão");
 
 	}
 	
 	
 	@Override
 	public void exibirNome() {
-		System.out.println("Dragao : " + this.retornarNome());
+		System.out.println(this.retornarNome());
 	}
 	
 

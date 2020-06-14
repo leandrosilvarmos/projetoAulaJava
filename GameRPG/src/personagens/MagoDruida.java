@@ -1,12 +1,10 @@
 package personagens;
 
-import combatentes.Combatente;
+public class MagoDruida extends Mago {
 
-public class Humano extends Combatente {
-
-	public Humano(int TotalVida) {
+	public MagoDruida(int TotalVida) {
 		super(TotalVida);
-		super.atribuirNome("Humano");
+		super.atribuirNome("Mago Druida - Feiticeiro");
 		// TODO Auto-generated constructor stub
 	}
 
@@ -16,5 +14,4 @@ public class Humano extends Combatente {
 	public void exibirNome() {
 		System.out.println(this.retornarNome());
 	}
-	
 }

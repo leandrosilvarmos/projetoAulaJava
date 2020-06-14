@@ -1,20 +1,16 @@
 package personagens;
-import combatentes.Combatente;
 
-public class Orc extends Combatente  {
+public class DragaoGelo extends Dragao{
 
-	
-	public Orc(int TotalVida) {
+	public DragaoGelo(int TotalVida) {
 		super(TotalVida);
-		super.atribuirNome("Orc");
+		super.atribuirNome("Dragão Gelo");
+
 	}
 	
 	@Override
 	public void exibirNome() {
 		System.out.println(this.retornarNome());
-
 	}
 	
-	
-
 }

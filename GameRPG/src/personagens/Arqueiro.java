@@ -1,8 +1,7 @@
 package personagens;
 
-import combatentes.Combatente;
 
-public class Arqueiro extends Combatente  {
+public class Arqueiro extends Humano  {
 
 	public Arqueiro(int TotalVida) {
 		super(TotalVida);

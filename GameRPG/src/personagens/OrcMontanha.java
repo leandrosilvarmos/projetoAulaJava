@@ -1,12 +1,11 @@
 package personagens;
-import combatentes.Combatente;
 
-public class Orc extends Combatente  {
+public class OrcMontanha extends Orc {
 
 	
-	public Orc(int TotalVida) {
+	public OrcMontanha(int TotalVida) {
 		super(TotalVida);
-		super.atribuirNome("Orc");
+		super.atribuirNome("Orc da montanha");
 	}
 	
 	@Override
@@ -15,6 +14,4 @@ public class Orc extends Combatente  {
 
 	}
 	
-	
-
 }

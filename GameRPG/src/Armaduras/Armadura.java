@@ -6,7 +6,7 @@ public class Armadura {
 	
 	public int diminuiAtaque(int ataque) {
 		if(ataque > protecao) {
-			System.out.println(" Armadura defendeu: " + protecao + " pontos de ataque");
+			System.out.println("Armadura defendeu: " + protecao + " pontos de ataque");
 		return ataque - protecao;
 		}else {
 			return 0;
