@@ -4,24 +4,10 @@
 
  
   <p align="center">
- <img src="img/UML - AulaJava - 1.png">
+ <img src="img/UML - AulaJava.png">
  </p>
  
-  <p align="center">
- <img src="img/UML - AulaJava - 2.png">
- </p>
- 
-  <p align="center">
- <img src="img/UML - AulaJava - 3.png">
- </p>
- 
-  <p align="center">
- <img src="img/UML - AulaJava - 4.png">
- </p>
- 
-  <p align="center">
- <img src="img/UML - AulaJava - 5.png">
- </p>
+
  
  
  ### Autor: Leandro ramos silva
