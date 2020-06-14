@@ -1,12 +1,26 @@
 # Documentação Java - RPG 
 
+## Imagens do diagrama UML
 
- <p align="center">
- <img src="https://img2.gratispng.com/20180805/iot/kisspng-logo-java-runtime-environment-programming-language-java-util-concurrentmodificationexception-%C3%96mer-5b6766ab2d98b8.1809687115335031471868.jpg">
- </p>
  
   <p align="center">
  <img src="img/UML - AulaJava - 1.png">
+ </p>
+ 
+  <p align="center">
+ <img src="img/UML - AulaJava - 2.png">
+ </p>
+ 
+  <p align="center">
+ <img src="img/UML - AulaJava - 3.png">
+ </p>
+ 
+  <p align="center">
+ <img src="img/UML - AulaJava - 4.png">
+ </p>
+ 
+  <p align="center">
+ <img src="img/UML - AulaJava - 5.png">
  </p>
  
  
